@@ -1,0 +1,4 @@
+@media (max-width: 768px) {
+  .finance-stat-grid { grid-template-columns: 1fr; }
+  .travel-cards-viewport { padding: 0.5rem; }
+}
