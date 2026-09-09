@@ -1,0 +1,9 @@
+{
+  "name": "lifeos",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "node backend/server.js",
+    "test": "jest",
+    "build": "cd frontend && npm run build"
+  }
+}
