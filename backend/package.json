@@ -1,0 +1,30 @@
+{
+  "name": "lifeos-backend",
+  "version": "1.0.0",
+  "description": "LifeOS - Personal Life Management & Decision Support Platform Backend API",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "keywords": [
+    "lifeos",
+    "decision-support",
+    "personal-management",
+    "productivity",
+    "finance",
+    "career"
+  ],
+  "author": "Ramya Sri / Senior Engineering Team",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "jsonwebtoken": "^9.0.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  }
+}
